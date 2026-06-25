@@ -1,0 +1,282 @@
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+body{
+
+
+margin:0;
+
+
+padding:0;
+
+
+font-family:
+
+"Poppins",
+Arial,
+sans-serif;
+
+
+
+background:#020617;
+
+
+color:white;
+
+
+overflow-x:hidden;
+
+
+}
+
+
+
+
+*{
+
+
+box-sizing:border-box;
+
+
+}
+
+
+
+section{
+
+
+scroll-margin-top:80px;
+
+
+}
+
+
+
+/* scrollbar */
+
+
+::-webkit-scrollbar{
+
+
+width:10px;
+
+
+}
+
+
+
+::-webkit-scrollbar-track{
+
+
+background:#020617;
+
+
+}
+
+
+
+::-webkit-scrollbar-thumb{
+
+
+background:
+
+
+linear-gradient(
+
+#38bdf8,
+
+#a855f7
+
+);
+
+
+border-radius:20px;
+
+
+}
+
+
+
+/* selection */
+
+
+::selection{
+
+
+background:#38bdf8;
+
+
+color:black;
+
+
+}
+/* =========================
+LIGHT THEME
+========================= */
+
+
+body.light{
+
+
+background:#f8fafc;
+
+
+color:#020617;
+
+
+transition:.5s;
+
+
+}
+
+
+
+
+
+body.light .hero,
+body.light .about,
+body.light .skills,
+body.light .projects,
+body.light .experience,
+body.light .contact,
+body.light .footer{
+
+
+background:
+
+linear-gradient(
+
+135deg,
+
+#ffffff,
+
+#dbeafe
+
+);
+
+
+
+color:#020617;
+
+
+}
+
+
+
+
+
+body.light h1,
+body.light h2,
+body.light h3,
+body.light h4,
+body.light p,
+body.light span{
+
+
+color:#020617;
+
+
+}
+
+
+
+
+body.light .about-right,
+body.light .contact-form,
+body.light .skill-card,
+body.light .project-card,
+body.light .exp-front,
+body.light .exp-back{
+
+
+background:
+
+rgba(255,255,255,.75);
+
+
+
+color:#020617;
+
+
+
+border:
+
+1px solid rgba(0,0,0,.15);
+
+
+}
+
+
+
+
+
+body.light nav a{
+
+
+color:#020617;
+
+
+}
+
+
+
+
+body.light header{
+
+
+background:
+
+rgba(255,255,255,.7);
+
+
+}
+
+
+
+body.light ::-webkit-scrollbar-track{
+
+
+background:#e2e8f0;
+
+
+}
+@media(max-width:768px){
+
+
+body{
+
+overflow-x:hidden;
+
+}
+
+
+section{
+
+padding-left:20px!important;
+
+padding-right:20px!important;
+
+}
+
+
+
+h1{
+
+font-size:45px!important;
+
+}
+
+
+h2{
+
+font-size:40px!important;
+
+}
+
+
+
+}

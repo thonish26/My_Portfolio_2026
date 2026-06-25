@@ -1,0 +1,544 @@
+.footer{
+
+
+height:550px;
+
+position:relative;
+
+overflow:hidden;
+
+
+background:
+
+
+radial-gradient(
+
+circle at top left,
+
+#1e3a8a,
+
+transparent 40%
+
+),
+
+
+linear-gradient(
+
+135deg,
+
+#020617,
+
+#0f172a,
+
+#020617
+
+);
+
+
+color:white;
+
+
+}
+
+
+.galaxy-footer{
+
+
+position:absolute;
+
+
+top:0;
+
+left:0;
+
+
+width:100%;
+
+
+height:100%;
+
+
+z-index:1;
+
+
+}
+
+
+
+/* CANVAS */
+
+.bubble-canvas{
+
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+
+z-index:1;
+
+
+}
+
+
+
+
+
+
+/* ASTRONAUT */
+
+
+.robot{
+
+
+position:absolute;
+
+
+left:12%;
+
+
+top:70px;
+
+
+width:220px;
+
+
+z-index:5;
+
+
+
+filter:
+
+drop-shadow(
+0 0 35px #38bdf8
+);
+
+
+
+animation:
+
+astronaut-float 5s infinite ease-in-out;
+
+
+
+}
+
+
+
+
+
+
+@keyframes astronaut-float{
+
+
+0%{
+
+transform:
+translateY(0)
+rotate(0deg);
+
+}
+
+
+
+50%{
+
+transform:
+
+translateY(-35px)
+
+rotate(8deg);
+
+
+}
+
+
+
+100%{
+
+transform:
+
+translateY(0)
+
+rotate(0deg);
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* PLANET */
+
+
+.planet{
+
+
+position:absolute;
+
+
+left:25%;
+
+
+bottom:-120px;
+
+
+
+width:300px;
+
+height:300px;
+
+
+
+border-radius:50%;
+
+
+
+background:
+
+
+radial-gradient(
+
+circle,
+
+#38bdf8,
+
+#2563eb,
+
+transparent 70%
+
+);
+
+
+
+filter:
+
+blur(15px);
+
+
+
+animation:
+
+planetMove 6s infinite;
+
+
+
+}
+
+
+
+@keyframes planetMove{
+
+
+50%{
+
+transform:
+
+translateY(-30px);
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* CONTENT */
+
+
+.footer-content{
+
+
+position:absolute;
+
+
+right:15%;
+
+
+top:100px;
+
+
+
+z-index:5;
+
+
+
+text-align:center;
+
+
+}
+
+
+
+
+
+.footer-content h2{
+
+
+font-size:50px;
+
+
+background:
+
+linear-gradient(
+90deg,
+#38bdf8,
+#a855f7
+);
+
+
+
+background-clip:text;
+
+-webkit-background-clip:text;
+
+
+color:transparent;
+
+
+}
+
+
+
+
+
+
+
+.footer-content p{
+
+
+font-size:20px;
+
+
+}
+
+
+
+
+
+
+
+
+/* SOCIAL ICONS */
+
+
+.social a{
+
+
+display:inline-flex;
+
+
+align-items:center;
+
+justify-content:center;
+
+
+
+width:60px;
+
+height:60px;
+
+
+
+margin:15px;
+
+
+
+border-radius:50%;
+
+
+
+font-size:30px;
+
+
+
+color:white;
+
+
+
+background:
+
+rgba(255,255,255,.08);
+
+
+
+border:
+
+1px solid rgba(255,255,255,.3);
+
+
+
+transition:.4s;
+
+
+
+}
+
+
+
+.social a:hover{
+
+
+transform:
+
+
+translateY(-15px)
+
+scale(1.2);
+
+
+
+background:
+
+linear-gradient(
+
+135deg,
+
+#38bdf8,
+
+#a855f7
+
+);
+
+
+
+box-shadow:
+
+
+0 0 40px #38bdf8;
+
+
+}
+
+.native-icon {
+  margin-right: 10px; /* Space between symbol and contact digits */
+  font-size: 22px;    /* Matches clean visibility dimensions */
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+.copyright{
+
+
+position:absolute;
+
+
+bottom:30px;
+
+
+width:100%;
+
+
+text-align:center;
+
+
+z-index:5;
+
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .footer {
+  min-height: auto;
+  padding: 80px 16px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+ isolation: isolate;
+}
+
+  /* ROBOT */
+  .robot {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 140px;
+    margin: auto;
+     animation: astronaut-float 5s infinite ease-in-out; 
+  }
+
+  /* PLANET */
+  .planet {
+    width: 180px;
+    height: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+    filter: blur(10px);
+  }
+
+  .galaxy-footer,
+.bubble-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+  /* CONTENT CENTER */
+  .footer-content {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+   text-align: center;
+  }
+
+  .footer-content h2 {
+    font-size: 32px;
+  }
+
+  .footer-content p {
+    font-size: 16px;
+  }
+
+  /* CONTACT ITEMS */
+  .contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  /* SOCIAL ICONS */
+  .social a {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    margin: 10px;
+  }
+
+  /* COPYRIGHT */
+  .copyright {
+    position: relative;
+    bottom: auto;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+}
