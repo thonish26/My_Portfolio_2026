@@ -10,12 +10,6 @@ It features a 3D interactive galaxy background, smooth animations, and a fully r
 
 ---
 
-## 📸 Preview
-
-![Portfolio Preview](./preview.png)
-
----
-
 ## ✨ Features
 
 - 🌌 Interactive 3D Galaxy Background (React Three Fiber)
