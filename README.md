@@ -1,65 +1,27 @@
-# 🌌 My Portfolio Website
+# 🌌 Developer Portfolio
 
-A modern developer portfolio built with **React**, **Three.js**, and advanced UI animations.  
-It features a 3D interactive galaxy background, smooth animations, and a fully responsive design.
-
----
-
-## 🚀 Live Demo
-👉 (Add your deployed link here after deployment)
+Modern 3D portfolio website built with React and Three.js.
 
 ---
 
 ## ✨ Features
-
-- 🌌 Interactive 3D Galaxy Background (React Three Fiber)
-- 🎨 Animated Hero Section with Typewriter Effect
-- 🌗 Dark / Light Theme Toggle
-- 📱 Fully Responsive Design (Mobile Friendly)
-- 🎬 Lottie Animations (Robot & UI effects)
-- ⚡ Smooth UI Animations & Transitions
-- 💼 Professional Portfolio Layout
-
----
-
-## 🛠️ Tech Stack
-
-- React.js
-- Three.js / React Three Fiber
-- Drei
-- CSS3
+- 3D Galaxy Background
+- Theme Toggle (Dark/Light)
+- Animated Hero Section
+- Responsive Design
 - Lottie Animations
-- React Icons
 
 ---
 
-## 📂 Project Structure
-src/
-├── components/
-│ ├── Hero.jsx
-│ ├── Footer.jsx
-│ ├── GalaxyBackground.jsx
-│ ├── ThemeToggle.jsx
-│ ├── MagneticButton.jsx
-│ └── ...
-├── assets/
-├── App.js
-└── index.js
-
+## 🛠 Tech Stack
+React, Three.js, CSS, Lottie
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup
 
 ```bash
-# Clone repo
-git clone https://github.com/thonish26/My_Portfolio.git
-
-# Move into project
-cd My_Portfolio
-
-# Install dependencies
+git clone https://github.com/thonish26/My_Portfolio_2026.git
+cd My_Portfolio_2026
 npm install
-
-# Start development server
 npm run dev
