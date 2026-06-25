@@ -1,27 +1,33 @@
-# 🌌 Developer Portfolio
+# My Portfolio 2026 🚀
 
-Modern 3D portfolio website built with React and Three.js.
+A modern responsive portfolio website built with React.js, CSS, Three.js animations and interactive UI components.
 
----
+## 🌐 Live Demo
+
+https://portfoilo2026-nu.vercel.app/
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- CSS3
+- Three.js
+- React Three Fiber
+- Lottie Animation
+- Vercel Deployment
 
 ## ✨ Features
-- 3D Galaxy Background
-- Theme Toggle (Dark/Light)
-- Animated Hero Section
+
+- Animated Galaxy Background
+- Interactive Hero Section
 - Responsive Design
-- Lottie Animations
+- Dark / Light Theme
+- Project Showcase
+- Contact Section
 
----
+## 📌 Author
 
-## 🛠 Tech Stack
-React, Three.js, CSS, Lottie
+Thonishwari M
 
----
-
-## ⚙️ Setup
-
-```bash
-git clone https://github.com/thonish26/My_Portfolio_2026.git
-cd My_Portfolio_2026
-npm install
-npm run dev
+GitHub:
+https://github.com/thonish26
